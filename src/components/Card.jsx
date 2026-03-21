@@ -1,8 +1,12 @@
+import Button from "./Button";
+
 export default function Card() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-gray-900">Escolha seu plano</h2>
+        <h2 className="text-3xl font-bold text-purple-700">
+          Escolha seu plano
+        </h2>
 
         <p className="mt-4 text-gray-600">
           Planos acessíveis para você aprender inglês no seu ritmo
@@ -20,13 +24,11 @@ export default function Card() {
               <li>✔ Suporte por WhatsApp</li>
             </ul>
 
-            <button className="mt-8 w-full bg-gray-900 text-white py-3 rounded-xl hover:bg-black transition">
-              Escolher plano
-            </button>
+            <Button text="Escolher plano" className="mt-8 w-full" />
           </div>
 
           {/* Plano destaque */}
-          <div className="bg-blue-600 text-white p-8 rounded-2xl shadow-xl scale-105">
+          <div className="bg-orange-600 text-white p-8 rounded-2xl shadow-xl scale-105">
             <h3 className="text-xl font-semibold">Intermediário</h3>
             <p className="text-3xl font-bold mt-4">R$129</p>
 
@@ -37,9 +39,10 @@ export default function Card() {
               <li>✔ Suporte prioritário</li>
             </ul>
 
-            <button className="mt-8 w-full bg-white text-blue-600 py-3 rounded-xl font-semibold hover:bg-gray-100 transition">
-              Escolher plano
-            </button>
+            <Button
+              text="Escolher plano"
+              className="mt-8 w-full !bg-white text-orange-700"
+            />
           </div>
 
           {/* Plano premium */}
@@ -54,9 +57,7 @@ export default function Card() {
               <li>✔ Mentoria individual</li>
             </ul>
 
-            <button className="mt-8 w-full bg-gray-900 text-white py-3 rounded-xl hover:bg-black transition">
-              Escolher plano
-            </button>
+            <Button text="Escolher plano" className="mt-8 w-full" />
           </div>
         </div>
       </div>

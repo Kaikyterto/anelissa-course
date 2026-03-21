@@ -12,16 +12,31 @@ export default function About() {
 
         {/* Texto */}
         <div>
-          <h2 className="text-3xl font-bold text-gray-900">Sobre o curso</h2>
+          <h2 className="text-3xl font-bold text-purple-700">Sobre o curso</h2>
 
           <p className="mt-4 text-gray-600">
-            Nosso curso foi criado para ajudar alunos a aprender inglês de forma
-            prática e natural, focando principalmente na conversação.
+            Meu ensino combina quatro pilares essenciais para a fluência:
           </p>
 
           <p className="mt-4 text-gray-600">
-            Com uma metodologia simples e eficiente, você vai desenvolver
-            confiança para falar inglês no dia a dia.
+            🔹 Prática guiada de fala Você fala desde a primeira aula, com
+            suporte constante.
+          </p>
+
+          <p className="mt-4 text-gray-600">
+            🔹 Input de qualidade Vocabulário e estruturas realmente usados por
+            nativos.
+          </p>
+
+          <p className="mt-4 text-gray-600">
+            🔹 Correção estratégica Feedback claro para acelerar sua evolução
+            sem travar sua confiança.
+          </p>
+
+          <p className="mt-4 text-gray-600">
+            🔹 Conteúdo adaptado aos seus objetivos Aulas personalizadas para
+            Business English, viagens, conversação geral ou qualquer necessidade
+            específica da sua rotina.
           </p>
         </div>
       </div>
