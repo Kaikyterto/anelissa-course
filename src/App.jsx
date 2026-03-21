@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Card from "./components/Card";
 import About from "./components/About";
 import WhyChoose from "./components/WhyChoose";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <About />
         <WhyChoose />
         <Card />
+        <Faq />
         <Footer />
       </section>
     </>

@@ -41,7 +41,7 @@ export default function Card() {
 
             <Button
               text="Escolher plano"
-              className="mt-8 w-full !bg-white text-orange-700"
+              className="mt-8 w-full !bg-purple-900 text-orange-700"
             />
           </div>
 
