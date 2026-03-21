@@ -52,9 +52,9 @@ const Faq = () => {
         " Com base no seu nível de inglês atual, e o plano escolhido, iremos traçar na primeira um planejamento de estudos personalizados para atingir sua fluência no menor tempo.",
     },
     {
-      question: "Que tecnologia eu preciso para as sessões online?",
+      question: "Por quanto tempo preciso fazer aulas?",
       answer:
-        "Tudo que você precisa é uma conexão estável com a internet e um dispositivo com câmera e microfone (como um computador, tablet ou smartphone). Realizamos as sessões por meio de plataformas comuns de videoconferência, como o Google Meet ou o Zoom.",
+        "O acompanhamento é personalizado e flexível, e você pode ajustar a frequência ou encerrar quando sentir que atingiu seus objetivos.",
     },
   ];
 
@@ -62,13 +62,9 @@ const Faq = () => {
     <section id="faq" className="py-20 md:py-28 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-purple-700 mb-4">
             Perguntas Frequentes
           </h2>
-          <p className="max-w-2xl mx-auto text-gray-600 text-lg">
-            Tem dúvidas? Nós temos as respostas. Aqui estão algumas perguntas
-            frequentes dos nossos clientes.
-          </p>
         </div>
         <div className="max-w-3xl mx-auto">
           {faqData.map((item, index) => (
