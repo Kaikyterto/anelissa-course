@@ -1,10 +1,18 @@
+import logo from "../assets/logo.jpg";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 mt-20">
       <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
         {/* Logo / descrição */}
         <div>
-          <h2 className="text-xl font-bold text-white">MyLanding</h2>
+          <div className="max-w-sm overflow-hidden rounded-lg shadow-lg">
+            <img
+              src={logo}
+              alt="Logo Anelisse Course"
+              className="w-full h-48 object-cover"
+            />
+          </div>
           <p className="mt-3 text-sm text-gray-400">
             Aprenda inglês de forma simples e prática com aulas focadas em
             conversação e resultados reais.
