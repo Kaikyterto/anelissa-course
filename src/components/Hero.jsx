@@ -29,7 +29,7 @@ export default function Hero() {
           <img
             src={anelisse}
             alt="Professora Anelisse"
-            className="rounded-2xl shadow-xl drop-shadow-[0_0_5px_purple] drop-shadow-[0_0_15px_violet]"
+            className="rounded-2xl shadow-xl drop-shadow-[0_0_5px_purple]"
           />
         </div>
       </div>
