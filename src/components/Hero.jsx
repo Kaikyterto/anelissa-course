@@ -4,7 +4,7 @@ import anelisse from "../assets/anelisse.jpg";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center bg-gray-50 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center z-10">
+      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10  z-10">
         {/* Texto */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-orange-400 leading-tight">
@@ -12,7 +12,7 @@ export default function Hero() {
             <span className="text-purple-700 "> de forma eficiente</span>
           </h1>
 
-          <p className="mt-6 text-lg text-gray-600">
+          <p className="mt-8 text-lg text-gray-600">
             Nada de turmas lotadas ou conteúdos genéricos. As aulas são
             individuais — somente você e a professora — ou em dupla (casais,
             amigos ou colegas), sempre com atenção total às suas necessidades,
