@@ -3,10 +3,10 @@ import logo from "../assets/logo.jpg";
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 mt-20">
-      <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-2 gap-8 text-center items-center">
         {/* Logo / descrição */}
         <div>
-          <div className="max-w-sm overflow-hidden rounded-lg shadow-lg">
+          <div className="max-w-sm overflow-hidden rounded-lg shadow-lg mx-auto">
             <img
               src={logo}
               alt="Logo Anelisse Course"

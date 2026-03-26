@@ -12,7 +12,7 @@ export default function WhyChoose() {
 
         <div className="mt-12 grid md:grid-cols-3 gap-8">
           {/* Card 1 */}
-          <div className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+          <div className="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
             <div className="text-4xl mb-4">🎯</div>
             <h3 className="text-xl font-semibold">Foco na conversação</h3>
             <p className="mt-3 text-gray-600">
@@ -21,7 +21,7 @@ export default function WhyChoose() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+          <div className="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
             <div className="text-4xl mb-4">📚</div>
             <h3 className="text-xl font-semibold">Material completo</h3>
             <p className="mt-3 text-gray-600">
@@ -30,7 +30,7 @@ export default function WhyChoose() {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+          <div className="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
             <div className="text-4xl mb-4">🚀</div>
             <h3 className="text-xl font-semibold">Resultados rápidos</h3>
             <p className="mt-3 text-gray-600">
