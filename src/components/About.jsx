@@ -1,13 +1,16 @@
+import anelisse from "../assets/anelisse.jpg";
+
 export default function About() {
   return (
     <section id="sobre" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-        {/* Vídeo */}
+        {/* image2 */}
         <div className="flex justify-center">
-          <video controls className="rounded-2xl shadow-lg">
-            <source src="/video.mp4" type="video/mp4" />
-            Seu navegador não suporta vídeo.
-          </video>
+          <img
+            src={anelisse}
+            alt="Professora Anelisse"
+            className="rounded-2xl shadow-xl drop-shadow-[0_0_5px_purple]"
+          />
         </div>
 
         {/* Texto */}

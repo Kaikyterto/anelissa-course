@@ -1,5 +1,5 @@
 import Button from "./Button";
-import anelisse from "../assets/anelisse.jpg";
+import anelisse2 from "../assets/anelisse2.jpg";
 
 export default function Hero() {
   return (
@@ -27,7 +27,7 @@ export default function Hero() {
         {/* Imagem */}
         <div className="flex justify-center">
           <img
-            src={anelisse}
+            src={anelisse2}
             alt="Professora Anelisse"
             className="rounded-2xl shadow-xl drop-shadow-[0_0_5px_purple]"
           />
@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="absolute bottom-0 left-0 w-full h-auto pointer-events-none">
         <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
           <path
-            fill="#ff9966"
+            fill="#FB923C"
             fillOpacity="0.8"
             d="M0,192L80,176C160,160,320,128,480,144C640,160,800,224,960,240C1120,256,1280,224,1360,208L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
