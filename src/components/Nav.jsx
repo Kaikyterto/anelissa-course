@@ -1,18 +1,18 @@
 import { useState } from "react";
 import Button from "./Button";
 import Link from "./Link";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/EnglishwithAnne.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-md sticky z-50 top-0">
+    <nav className="w-full bg-anne-pink shadow-md sticky z-50 top-0">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <img
           src={logo}
           alt="Anelisse course"
-          className="rounded-2xl  w-20 h-16"
+          className="rounded-2xl w-28 h-20"
         />
 
         {/* Menu Desktop */}
@@ -62,7 +62,7 @@ export default function Navbar() {
       <div
         className={`md:hidden absolute top-full left-0 w-full bg-white shadow-xl z-50 overflow-hidden transition-all duration-300 ease-in-out ${
           isOpen
-            ? "max-h-[500px] opacity-100 border-t border-gray-100"
+            ? "max-h-[500px] opacity-100 border-t border-purple-500"
             : "max-h-0 opacity-0"
         }`}
       >

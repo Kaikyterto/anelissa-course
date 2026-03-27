@@ -9,9 +9,11 @@ const FaqItem = ({ question, answer }) => {
         className="w-full flex justify-between items-center text-left"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <h4 className="text-lg font-medium text-blue-900">{question}</h4>
+        <h4 className="text-lg font-medium text-anne-purple">{question}</h4>
         <svg
-          className={`w-5 h-5 text-blue-900 transition-transform duration-300 ${isOpen ? "transform rotate-180" : ""}`}
+          className={`w-5 h-5 text-blue-900 transition-transform duration-300 ${
+            isOpen ? "transform rotate-180" : ""
+          }`}
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
@@ -26,7 +28,9 @@ const FaqItem = ({ question, answer }) => {
         </svg>
       </button>
       <div
-        className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 mt-4" : "max-h-0"}`}
+        className={`overflow-hidden transition-all duration-300 ease-in-out ${
+          isOpen ? "max-h-96 mt-4" : "max-h-0"
+        }`}
       >
         <p className="text-gray-600">{answer}</p>
       </div>
@@ -38,13 +42,11 @@ const Faq = () => {
   const faqData = [
     {
       question: "Preciso saber inglês para começar?",
-      answer:
-        "Não. Atendo desde iniciantes até avançados.",
+      answer: "Não. Atendo desde iniciantes até avançados.",
     },
     {
       question: "E se eu precisar remarcar uma sessão?",
-      answer:
-        " Sim, 100% online e ao vivo.",
+      answer: " Sim, 100% online e ao vivo.",
     },
     {
       question: "Quanto tempo leva para ficar fluente?",
@@ -59,10 +61,10 @@ const Faq = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 md:py-28 bg-gray-50">
-      <div className="container mx-auto px-6">
+    <section id="faq" className="py-20 md:py-28 bg-anne-bg-peach">
+      <div className="container mx-auto px-6 ">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-purple-700 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-anne-gold mb-4">
             Perguntas Frequentes
           </h2>
         </div>

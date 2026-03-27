@@ -1,18 +1,21 @@
+import anelisse2 from "../assets/anelisse2.jpg";
+
 export default function About() {
   return (
-    <section id="sobre" className="py-20 bg-white">
+    <section id="sobre" className="py-20 bg-anne-pink">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-        {/* Vídeo */}
+        {/* image2 */}
         <div className="flex justify-center">
-          <video controls className="rounded-2xl shadow-lg">
-            <source src="/video.mp4" type="video/mp4" />
-            Seu navegador não suporta vídeo.
-          </video>
+          <img
+            src={anelisse2}
+            alt="Professora Anelisse"
+            className="rounded-2xl shadow-xl drop-shadow-[0_0_5px_purple]"
+          />
         </div>
 
         {/* Texto */}
         <div>
-          <h2 className="text-3xl font-bold text-purple-700">Sobre o curso</h2>
+          <h2 className="text-3xl font-bold text-anne-purple">Sobre o curso</h2>
 
           <p className="mt-4 text-gray-600">
             Meu ensino combina quatro pilares essenciais para a fluência:
