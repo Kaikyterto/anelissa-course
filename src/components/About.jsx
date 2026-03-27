@@ -1,4 +1,4 @@
-import anelisse2 from "../assets/anelisse2.jpg";
+import anelisse2 from "../assets/anelisse2.JPG";
 
 export default function About() {
   return (
