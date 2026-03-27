@@ -22,7 +22,7 @@ export default function Footer() {
         {/* Contato */}
         <div>
           <h3 className="text-white font-semibold mb-3">Contato</h3>
-          <p className="text-sm">📱 (45) 9981-7267</p>
+          <p className="text-sm">📱 (45) 99817-2267 5545998172267</p>
         </div>
       </div>
 

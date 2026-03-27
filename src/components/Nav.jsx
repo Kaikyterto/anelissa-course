@@ -26,7 +26,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <Link
             text="Começar agora"
-            href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+            href="https://wa.me/5545998172267?text=Olá! Gostaria de saber mais informações."
           />
         </div>
 

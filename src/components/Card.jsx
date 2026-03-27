@@ -16,17 +16,15 @@ export default function Card() {
           {/* Plano básico */}
           <div className="bg-anne-bg-peach p-8 rounded-2xl shadow-md">
             <h3 className="text-xl font-semibold">Básico</h3>
-            <p className="text-3xl font-bold mt-4">R$79</p>
+            <p className="text-3xl font-bold mt-4">R$300 mensal</p>
 
             <ul className="mt-6 space-y-2 text-gray-600">
-              <li>✔ 2 aulas por semana</li>
-              <li>✔ Material incluso</li>
-              <li>✔ Suporte por WhatsApp</li>
+              <li>✔ 1 aulas por semana</li>
             </ul>
 
             <Link
               text="Escolher Plano"
-              href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+              href="https://wa.me/5545998172267?text=Olá! Gostaria de assinar o plano básico."
               className="mt-8 w-full block text-center"
             />
           </div>
@@ -36,18 +34,17 @@ export default function Card() {
             <h3 className="text-xl font-semibold text-anne-purple">
               Intermediário
             </h3>
-            <p className="text-3xl font-bold mt-4 text-anne-purple">R$129</p>
+            <p className="text-3xl font-bold mt-4 text-anne-purple">
+              R$540 mensal
+            </p>
 
             <ul className="mt-6 space-y-2 text-anne-purple">
-              <li>✔ 3 aulas por semana</li>
-              <li>✔ Material incluso</li>
-              <li>✔ Grupo de conversação</li>
-              <li>✔ Suporte prioritário</li>
+              <li>✔ 2 aulas por semana</li>
             </ul>
 
             <Link
               text="Escolher Plano"
-              href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+              href="https://wa.me/5545998172267?text=Olá! Gostaria de assinar o plano intermediário."
               className="mt-8 w-full block text-center"
             />
           </div>
@@ -55,18 +52,15 @@ export default function Card() {
           {/* Plano premium */}
           <div className="bg-anne-bg-peach p-8 rounded-2xl shadow-md">
             <h3 className="text-xl font-semibold">Premium</h3>
-            <p className="text-3xl font-bold mt-4">R$199</p>
+            <p className="text-3xl font-bold mt-4">R$765 mensal</p>
 
             <ul className="mt-6 space-y-2 text-gray-600">
-              <li>✔ 5 aulas por semana</li>
-              <li>✔ Material incluso</li>
-              <li>✔ Conversação ilimitada</li>
-              <li>✔ Mentoria individual</li>
+              <li>✔ 3 aulas por semana</li>
             </ul>
 
             <Link
               text="Escolher Plano"
-              href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+              href="https://wa.me/5545998172267?text=Olá! Gostaria de assinar o plano premium."
               className="mt-8 w-full block text-center"
             />
           </div>

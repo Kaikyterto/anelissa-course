@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="mt-8 flex gap-4">
             <Link
               text="Saiba mais"
-              href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+              href="https://wa.me/5545998172267?text=Olá! Gostaria de saber mais informações."
             />
           </div>
         </div>

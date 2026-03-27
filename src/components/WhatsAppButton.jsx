@@ -1,5 +1,5 @@
 export default function WhatsappButton() {
-  const phone = "554599817267";
+  const phone = "5545998172267";
   const message = "Olá! Gostaria de saber mais informações.";
 
   const link = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
