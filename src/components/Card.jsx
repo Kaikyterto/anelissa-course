@@ -1,8 +1,8 @@
-import Button from "./Button";
+import Link from "./Link";
 
 export default function Card() {
   return (
-    <section className="py-20 bg-anne-pink">
+    <section id="card" className="py-20 bg-anne-pink">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-anne-purple">
           Escolha seu plano
@@ -24,7 +24,11 @@ export default function Card() {
               <li>✔ Suporte por WhatsApp</li>
             </ul>
 
-            <Button text="Escolher plano" className="mt-8 w-full" />
+            <Link
+              text="Escolher Plano"
+              href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+              className="mt-8 w-full block text-center"
+            />
           </div>
 
           {/* Plano destaque */}
@@ -41,9 +45,10 @@ export default function Card() {
               <li>✔ Suporte prioritário</li>
             </ul>
 
-            <Button
-              text="Escolher plano"
-              className="mt-8 w-full !bg-anne-purple text-anne-pink"
+            <Link
+              text="Escolher Plano"
+              href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+              className="mt-8 w-full block text-center"
             />
           </div>
 
@@ -59,7 +64,11 @@ export default function Card() {
               <li>✔ Mentoria individual</li>
             </ul>
 
-            <Button text="Escolher plano" className="mt-8 w-full" />
+            <Link
+              text="Escolher Plano"
+              href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+              className="mt-8 w-full block text-center"
+            />
           </div>
         </div>
       </div>

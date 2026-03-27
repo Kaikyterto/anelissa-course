@@ -2,7 +2,7 @@ import anelisse2 from "../assets/anelisse2.JPG";
 
 export default function About() {
   return (
-    <section id="sobre" className="py-20 bg-anne-pink">
+    <section id="about" className="py-20 bg-anne-pink">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         {/* image2 */}
         <div className="flex justify-center">
@@ -22,22 +22,22 @@ export default function About() {
           </p>
 
           <p className="mt-4 text-gray-600">
-            🔹 Prática guiada de fala Você fala desde a primeira aula, com
+            🔹 Prática guiada de fala: Você fala desde a primeira aula, com
             suporte constante.
           </p>
 
           <p className="mt-4 text-gray-600">
-            🔹 Input de qualidade Vocabulário e estruturas realmente usados por
+            🔹 Input de qualidade: Vocabulário e estruturas realmente usados por
             nativos.
           </p>
 
           <p className="mt-4 text-gray-600">
-            🔹 Correção estratégica Feedback claro para acelerar sua evolução
+            🔹 Correção estratégica: Feedback claro para acelerar sua evolução
             sem travar sua confiança.
           </p>
 
           <p className="mt-4 text-gray-600">
-            🔹 Conteúdo adaptado aos seus objetivos Aulas personalizadas para
+            🔹 Conteúdo adaptado aos seus objetivos: Aulas personalizadas para
             Business English, viagens, conversação geral ou qualquer necessidade
             específica da sua rotina.
           </p>

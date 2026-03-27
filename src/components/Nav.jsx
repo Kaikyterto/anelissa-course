@@ -17,14 +17,17 @@ export default function Navbar() {
 
         {/* Menu Desktop */}
         <div className="hidden md:flex gap-8 items-center">
-          <Link text="Home" href="#" />
-          <Link text="Sobre" href="#sobre" />
-          <Link text="Cursos" href="#cursos" />
-          <Link text="Contato" href="#contato" />
+          <Link text="Home" href="#hero" />
+          <Link text="Sobre" href="#about" />
+          <Link text="Cursos" href="#card" />
+          <Link text="Contato" href="#footer" />
         </div>
 
         <div className="hidden md:block">
-          <Button text="Começar agora" />
+          <Link
+            text="Começar agora"
+            href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+          />
         </div>
 
         {/* Botão Sanduíche (Mobile) */}
@@ -68,16 +71,16 @@ export default function Navbar() {
       >
         <div className="flex flex-col items-center py-6 gap-6">
           <div onClick={() => setIsOpen(false)}>
-            <Link text="Home" href="#" />
+            <Link text="Home" href="#hero" />
           </div>
           <div onClick={() => setIsOpen(false)}>
-            <Link text="Sobre" href="#sobre" />
+            <Link text="Sobre" href="#about" />
           </div>
           <div onClick={() => setIsOpen(false)}>
-            <Link text="Cursos" href="#cursos" />
+            <Link text="Cursos" href="#card" />
           </div>
           <div onClick={() => setIsOpen(false)}>
-            <Link text="Contato" href="#contato" />
+            <Link text="Contato" href="#footer" />
           </div>
           <div className="mt-2" onClick={() => setIsOpen(false)}>
             <Button text="Começar agora" />

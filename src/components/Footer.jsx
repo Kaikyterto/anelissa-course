@@ -2,7 +2,7 @@ import logo from "../assets/EnglishwithAnne.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 mt-20">
+    <footer id="footer" className="bg-gray-900 text-gray-300 mt-20">
       <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-2 gap-8 text-center items-center">
         {/* Logo / descrição */}
         <div>
@@ -22,14 +22,13 @@ export default function Footer() {
         {/* Contato */}
         <div>
           <h3 className="text-white font-semibold mb-3">Contato</h3>
-          <p className="text-sm">📧 email@email.com</p>
-          <p className="text-sm">📱 (81) 99999-9999</p>
+          <p className="text-sm">📱 (45) 9981-7267</p>
         </div>
       </div>
 
       {/* Linha inferior */}
       <div className="border-t border-gray-700 text-center py-4 text-sm text-gray-400">
-        © 2026 MyLanding. Todos os direitos reservados.
+        © 2026 English with Anne. Todos os direitos reservados.
       </div>
     </footer>
   );

@@ -1,8 +1,11 @@
-import Button from "./Button";
+import Link from "./Link";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center bg-anne-bg-peach overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center bg-anne-bg-peach overflow-hidden"
+    >
       <div className="max-w-4xl mx-auto px-6 flex  gap-10  z-10 ">
         {/* Texto */}
         <div className="w-full mx-5 ">
@@ -19,7 +22,10 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex gap-4">
-            <Button text="Saiba mais" />
+            <Link
+              text="Saiba mais"
+              href="https://wa.me/554599817267?text=Olá! Gostaria de saber mais informações."
+            />
           </div>
         </div>
       </div>
