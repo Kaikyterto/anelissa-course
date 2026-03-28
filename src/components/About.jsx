@@ -18,7 +18,9 @@ export default function About() {
           <h2 className="text-3xl font-bold text-anne-purple">Sobre o curso</h2>
 
           <p className="mt-4 text-gray-600">
-            Meu ensino combina quatro pilares essenciais para a fluência:
+            Meu objetivo é simples: te ajudar a falar inglês com segurança na vida real.
+            Por isso, minhas aulas são estruturadas em quatro pilares essenciais para a sua evolução.
+
           </p>
 
           <p className="mt-4 text-gray-600">

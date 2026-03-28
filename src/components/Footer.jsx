@@ -28,7 +28,14 @@ export default function Footer() {
 
       {/* Linha inferior */}
       <div className="border-t border-gray-700 text-center py-4 text-sm text-gray-400">
-        © 2026 English with Anne. Todos os direitos reservados.
+        <p>
+          © 2026 English with Anne. Todos os direitos reservados. Developed by{" "}
+          <a href="http://www.linkedin.com/in/kaiky-santos-510b6b2a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            Kaiky Terto{" "}
+          </a>
+          &{" "}
+          <a href="https://www.linkedin.com/in/pedro-lucena-/">Pedro Lucena</a>
+        </p>
       </div>
     </footer>
   );

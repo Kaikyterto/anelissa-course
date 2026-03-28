@@ -11,14 +11,16 @@ export default function Hero() {
         <div className="w-full mx-5 ">
           <h1 className="text-4xl md:text-5xl font-bold text-anne-purple leading-tight">
             Domine o inglês em 2026
-            <span className="text-anne-pink "> de forma eficiente</span>
+            <span className="text-anne-pink "> de forma leve e eficiente</span>
           </h1>
 
           <p className="mt-8 text-lg text-gray-600">
-            Nada de turmas lotadas ou conteúdos genéricos. As aulas são
-            individuais — somente você e a professora — ou em dupla (casais,
-            amigos ou colegas), sempre com atenção total às suas necessidades,
-            objetivos e ritmo de aprendizagem.
+            Nada de turmas lotadas ou conteúdos genéricos.
+            Aqui, as aulas são feitas para você, no seu ritmo, com foco nos seus objetivos e no que você realmente precisa aprender.
+            
+            Você pode escolher ter aulas individuais (só você e a professora) ou em dupla, com alguém que você já conhece e em quem confia (casais, amigos ou colegas).
+            Sempre com direcionamento claro, prática constante e foco total na sua evolução.
+
           </p>
 
           <div className="mt-8 flex gap-4">

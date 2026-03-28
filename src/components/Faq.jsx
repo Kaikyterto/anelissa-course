@@ -42,11 +42,11 @@ const Faq = () => {
   const faqData = [
     {
       question: "Preciso saber inglês para começar?",
-      answer: "Não. Atendo desde iniciantes até avançados.",
+      answer: "Não. Eu trabalho com alunos de todos os níveis, desde quem está começando do zero até quem já tem um nível mais avançado.As aulas são sempre adaptadas ao seu momento, respeitando seu ritmo e focando no que você realmente precisa desenvolver.",
     },
     {
       question: "E se eu precisar remarcar uma sessão?",
-      answer: " Sim, 100% online e ao vivo.",
+      answer: " Sem problema. Você pode remarcar sua aula com antecedência, de acordo com a disponibilidade.",
     },
     {
       question: "Quanto tempo leva para ficar fluente?",
